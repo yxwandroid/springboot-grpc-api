@@ -62,7 +62,8 @@ dependencies {
     implementation('com.github.pagehelper:pagehelper-spring-boot-starter:1.1.2')
     //数据库连接
     implementation('org.springframework.boot:spring-boot-starter-jdbc')
-    implementation('mysql:mysql-connector-java:5.1.35')
+//    implementation('mysql:mysql-connector-java:5.1.35')
+    implementation('mysql:mysql-connector-java:8.0.20')
     implementation('com.alibaba:fastjson:1.2.47')
     implementation('com.alibaba:druid:1.0.11')
     implementation('com.alibaba:druid-spring-boot-starter:1.1.0')
