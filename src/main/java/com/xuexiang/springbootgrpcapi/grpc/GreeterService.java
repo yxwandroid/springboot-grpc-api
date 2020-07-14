@@ -16,6 +16,7 @@ public class GreeterService extends GreeterGrpc.GreeterImplBase {
         String message = "Hello " + request.getName();
         final HelloReply.Builder replyBuilder = HelloReply.newBuilder().setMessage(message);
         responseObserver.onNext(replyBuilder.build());
+//        responseObserver.onNext(replyBuilder.build());
         responseObserver.onCompleted();
         log.info("Returning " +message);
     }
